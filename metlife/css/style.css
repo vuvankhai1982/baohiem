@@ -4410,9 +4410,9 @@ ul.insurance-list span {
 }
 
 .insurance-service-all .insurance-coverage .single-insurance::after {
-    -webkit-box-shadow: 0px 1px 5px 2px rgba(166,166,166,1);
-    -moz-box-shadow: 0px 1px 5px 2px rgba(166,166,166,1);
-    box-shadow: 0px 1px 5px 2px rgba(166,166,166,1);
+    -webkit-box-shadow: 0px 1px 5px 2px rgba(255,0,0);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(255,0,0);
+    box-shadow: 0px 1px 5px 2px rgba(255,0,0);
     content: "";
     height: 100%;
     left: 0;
@@ -4468,11 +4468,12 @@ ul.insurance-list span {
 .insurance-service-all .insurance-coverage .single-insurance .read-more {
     display: inline-block;
     margin: 10px 0;
+    background-color:#FF0000 ;
 }
 
 .insurance-service-all .insurance-coverage .single-insurance .read-more a {
     border: 1px solid #FF0000;
-    color: #FF0000;
+    color: #FFFFFF;
     display: block;
     font-size: 12px;
     font-weight: 600;
