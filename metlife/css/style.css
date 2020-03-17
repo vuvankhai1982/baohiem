@@ -4362,9 +4362,6 @@ ul.insurance-list span {
     color: #E2E2E2;
     z-index: 300;
 }
-.ti-announcement:before {
-    font-size: 80px;
-}
 
 
 /* -------------------------------------------
@@ -4423,6 +4420,7 @@ ul.insurance-list span {
     visibility: hidden;
     width: 100%;
     z-index: 0;
+    border: 1px solid #FF0000;
 }
 
 .insurance-service-all .insurance-coverage .single-insurance:hover:after {
