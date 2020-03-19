@@ -2938,8 +2938,11 @@ a.item-client {
 
 .team-item-block:hover .team-overlay {
     opacity: 1;
-}
 
+}
+/*----------------them-------*/
+.team-thumb:hover{bottom: 10px;}
+/*----------------them-------*/
 .team-overlay p {
     display: block;
     font-size: 13px;
@@ -4422,6 +4425,7 @@ ul.insurance-list span {
     z-index: 0;
     border: 1px solid #FF0000;
 }
+.single-insurance-content:hover{bottom: 10px;}
 
 .insurance-service-all .insurance-coverage .single-insurance:hover:after {
     opacity: 1;
@@ -5546,6 +5550,7 @@ button.bg-light:focus {
 .pricing-entry > div p {
     margin-bottom: 0; }
 .pricing-entry h3 {
+    color: red;
     font-size: 28px;
     font-weight: 500; }
 .pricing-entry p .price {
@@ -5589,7 +5594,12 @@ button.bg-light:focus {
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
 .pricing-entry:hover, .pricing-entry:focus {
-    border: 2px solid #007bff; }
+    border: 2px solid #007bff;
+    bottom:10px;
+}
+/*----------------------------*/
+
+/*----------------------------*/
 .pricing-entry:hover .btn, .pricing-entry:focus .btn {
     background:#007bff !important;
     border: 1px solid #007bff !important;
