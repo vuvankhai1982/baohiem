@@ -1619,3 +1619,11 @@ th.visible-print,  td.visible-print { display: table-cell !important; }
 .hidden-print { display: none !important; }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+a.bg-light:focus,a.bg-light:hover,button.bg-light:focus,button.bg-light:hover{background-color:#dae0e5!important}.bg-dark{background-color:#343a40!important}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}
+.col-md-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%
+position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px
+}
+.text-center{text-align:center!important}@media (min-width:576px)
+ .pb-5,.py-5{padding-bottom:3rem!important
