@@ -5353,7 +5353,7 @@ ul.insurance-list span {
 \*------------------------------------*/
 .accordion .panel {
     border-color: rgba(49, 49, 49, 0.1);
-    padding: 20px 10px 0 10px;
+    padding: 1px 1px 0 1px;
     margin-bottom: 0;
     box-shadow: none;
     -moz-box-shadow: none;
@@ -5371,7 +5371,7 @@ ul.insurance-list span {
 }
 
 .accordion .panel .panel-heading h4 {
-    font-size: 16px;
+    font-size: 10px;
     color: #313131;
     line-height: 1;
     font-weight: 700;
