@@ -5535,6 +5535,7 @@ button.bg-light:focus {
     padding-left: 15px; }
 /* ------------ end accordion---------- */
 .pricing-entry {
+    height: 400px;
     border: 2px solid #FF0000;
     position: relative;
     -moz-transition: all 0.3s ease;
