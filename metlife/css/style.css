@@ -377,21 +377,24 @@ textarea {
 }
 
 .navbar-nav >li {
-    margin-right: 30px;
-    height: 94px;
+    margin-right: 3px;
+   /* height: 94px;*/
+    margin-top: 20px;
 }
 
 .navbar-nav li a {
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-family: 'myriad_prosemibold_condensed', Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .navbar-nav >li >a {
     color: #fff;
-    line-height: 94px;
-    padding: 0;
+    line-height: 24px;
+    padding: 8px 18px 4px;
+
+
 }
 
 .nav .open > a,
@@ -423,7 +426,7 @@ textarea {
     left: 0;
     width: 100%;
     height: 2px;
-    background: #05AED5;
+   /* background: #05AED5;*/
     content: '';
     opacity: 0;
     -webkit-transition: all 0.3s ease;
@@ -525,7 +528,7 @@ textarea {
 
 .top-bar ul.top-widget .top-social a i {
     border-right: 1px solid rgba(49, 49, 49, 0.1);
-    color: #9e9e9e;
+    color: #f70202;
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
@@ -562,10 +565,16 @@ textarea {
 }
 
 .full-header .navbar-nav > li > a {
-    color: #FF0000;
+    color: #FFFFFF;
+    border-radius: 4px 4px 0 0;
+    background: red;
+
 }
 
+.full-header .navbar-nav > li > a:hover{
+    opacity: 0.2;
 
+}
 
 
 @media only screen and (min-width : 992px) {
@@ -3451,7 +3460,7 @@ blockquote.blockquote-3 p {
 .main-service .main-service-description {
     position: relative;
     width: 77%;
-    background: #fdfdfd;
+    background: #FF0000;
     border: 1px solid #e6e6e6;
     padding-top: 7px;
     padding-bottom: 24px;
@@ -3463,7 +3472,7 @@ blockquote.blockquote-3 p {
 .main-service h3 {
     font-weight: 700;
     font-size: 24px;
-    color: #FF0000;
+    color: #FFFFFF;
     padding-left: 40px;
 }
 
@@ -3478,7 +3487,7 @@ blockquote.blockquote-3 p {
 
 .main-service p {
     font-family: 'Open Sans', sans-serif;
-    color: #898989;
+    color: #FFFFFF;
     padding-left: 40px;
     padding-right: 41px;
     padding-top: 13px;
@@ -3489,16 +3498,16 @@ blockquote.blockquote-3 p {
 }
 
 .main-service .main-service-description:hover {
-    background: #FF0000;
+    background: #FFFFFF;
     border: 1px solid #05AED5;
 }
 
 .main-service .main-service-description:hover h3 {
-    color: #fff;
+    color: #000000;
 }
 
 .main-service .main-service-description:hover p {
-    color: #e4e8e8;
+    color: #000000;
 }
 
 @media (max-width: 767px) {
@@ -3581,7 +3590,7 @@ blockquote.blockquote-3 p {
 
 #template-footer .section-title {
     font-size: 22px;
-    color: #fff;
+    color: #FF0000;
     position: relative;
     padding-bottom: 20px;
 }
